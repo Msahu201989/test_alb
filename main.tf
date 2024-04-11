@@ -1,6 +1,6 @@
 module "alb" {
   source           = "https://github.com/Msahu201989/test_alb.git"
-  env              = Dev
+  env              = DeV
 private_subnets  = subnet-03458dba469a5d163
 public_subnets   = subnet-03458dba469a5d163
 name             = Test
